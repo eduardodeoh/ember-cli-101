@@ -30,5 +30,8 @@ module.exports = function(defaults) {
   app.import('bower_components/picnic/releases/plugins.min.css');
   app.import('bower_components/picnic/releases/picnic.min.css');
 
+  //Moment.js lib
+  app.import('bower_components/moment/moment.js');
+
   return app.toTree();
 };
