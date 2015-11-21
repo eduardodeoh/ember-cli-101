@@ -10,3 +10,11 @@ body {
 table {
   width: 100%;
 }
+
+.friends-table thead tr {
+  cursor: pointer;
+}
+
+.articles-table thead tr {
+  cursor: pointer;
+}
